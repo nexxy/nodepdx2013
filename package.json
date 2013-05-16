@@ -1,0 +1,18 @@
+{
+  "name": "nodepdx",
+  "version": "0.0.0",
+  "description": "NodePDX 2013 Realtime Hardware Demos",
+  "main": "index.js",
+  "repository": "",
+  "author": "Emily Rose <emily@contactvibe.com>",
+  "license": "BSD",
+  "dependencies": {
+    "express": "~3.2.4",
+    "johnny-five": "~0.5.16",
+    "dnode": "~1.0.5",
+    "shoe": "0.0.10",
+    "browserify": "~2.13.3",
+    "request": "~2.21.0",
+    "colors": "~0.6.0-1"
+  }
+}
