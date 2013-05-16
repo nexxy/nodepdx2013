@@ -110,6 +110,10 @@ app.post('/track', function(req, res, next) {
     })
   res.end()
 })
+app.get('/', function(req, res) {
+
+  res.redirect('/dj.html')
+})
 
 sock.install(app.listen(9090), '/dnode')
 
